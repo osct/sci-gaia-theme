@@ -10,8 +10,8 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
-$dark-color: #ea281f; //Link Color
+$main-color: #d5d2d0;
+$dark-color: #0c854d; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -65,7 +65,7 @@ $header-image: none;
 $header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
-$footer-bg: $secondary-25;
+$footer-bg: white;
 $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -166,7 +166,7 @@ $course-bg-image: none;
 $account-content-wrapper-bg: $gray-1;
 
 $course-profile-bg: $gray-1;
-$course-header-bg: transparentize($gray-1, .1);
+$course-header-bg: white;
 
 $sidebar-chapter-bg-top: transparentize($gray-1, .3);
 $sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
