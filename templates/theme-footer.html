@@ -44,23 +44,6 @@
       </p>
         <nav class="nav-legal">
           <ul>
-	    %if marketing_link('HONOUR') and marketing_link('HONOUR') != '#':
-            <li class="nav-legal-01">
-	      <%
-		 tos_link = u"<a href='{}'>".format(marketing_link('TOS'))
-		 honour_link = u"<a href='{}'>".format(marketing_link('HONOUR'))
-	      %>
-	      ${
-	        _("{tos_link_start}Terms of Service{tos_link_end} and {honour_link_start}Honor Code{honor_link_end}").format(
-	          tos_link_start=tos_link,
-	          tos_link_end="</a>",
-	          honour_link_start=honour_link,
-	          honour_link_end="</a>",
-                )
-	      }
-              </a>
-            </li>
-	    %else:
             <li class="nav-legal-01">
               <a href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
             </li>
