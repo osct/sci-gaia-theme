@@ -31,8 +31,8 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #B2B2B2; //Block/Course BG Color
 $gray-2: #6F6F6F;
-$gray-1: #333333; //Main BG Color
-$white: $gray-1;
+$gray-1: $white; //Main BG Color
+$white: #FFFFFF;
 
 $black: #2e2e2e;
 $black-80: #585858;
@@ -57,7 +57,7 @@ $serif: $theme-serif-font;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $gray-1;
+$body-bg: $white;
 $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
