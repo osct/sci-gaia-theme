@@ -4,7 +4,7 @@
 *   Contains all the theme color definitions for the Stanford Open Source MOOC Project
 *
 ****************************************************************************************************/
-
+@import url(http://fonts.googleapis.com/css?family=Lato);
 //-----------------
 //  Color variables (from Stanford palette unless noted)
 //-----------------
@@ -44,11 +44,11 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
-$sans-serif: $theme-sans-font;
-$body-font-family: $sans-serif;
+$theme-sans-font: 'Lato';
+$lato: $theme-sans-font;
+$body-font-family: $lato;
 
-$theme-serif-font: 'Crimson Text';
+$theme-serif-font: $lato;
 $serif: $theme-serif-font;
 
 
@@ -66,7 +66,7 @@ $header-image: none;
 $header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
-$footer-bg: white;
+$footer-bg: #13643A;
 $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -182,6 +182,43 @@ $header_image_margin: -77px;
 
 //FOOTER MARGIN
 $footer_margin: 0;
+.wrapper-footer footer {
+    background-image: url('http://www.sci-gaia.eu/wp-content/themes/sci-gaia/images/scigaia-slide1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper-logo p {
+    color: $white;
+    font-family: "Lato";
+}
+.wrapper-footer footer a {
+    color: $white;
+    font-family: "Lato";
+}
+.wrapper-footer footer .colophon .nav-colophon li a {
+    color: $white;
+    font-family: "Lato";
+}
+
+.wrapper-footer footer p a, .wrapper-footer footer ol a, .wrapper-footer footer ul a {
+     color: $white;
+    font-family: "Lato";
+
+}
+.wrapper-footer footer p a, .wrapper-footer footer ol a, .wrapper-footer footer ul a:hover {
+     color: #FBB900;
+    font-family: "Lato";
+
+}
+.wrapper-footer footer .colophon .nav-colophon li a:hover {
+    color: #FBB900;
+    font-family: "Lato";
+}
+.wrapper-footer footer p a {
+
+    color:$white;
+    font-family: "Lato";
+}
 
 //-----------------
 //  CSS BG Images
